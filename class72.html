@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simanta Cafe</title>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th>Items</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Calculated Total Price</th>
+    </tr>
+
+    <tr>
+        <td>Tea</td>
+        <td>100</td>
+        <td><input type="number" id="quantity1"></td>
+        <td><input type="text" id="total1" readonly></td>
+    </tr>
+
+    <tr>
+        <td>Coffee</td>
+        <td>200</td>
+        <td><input type="number" id="quantity2"></td>
+        <td><input type="text" id="total2" readonly></td>
+    </tr>
+
+    <tr>
+        <td>Black Tea</td>
+        <td>120</td>
+        <td><input type="number" id="quantity3"></td>
+        <td><input type="text" id="total3" readonly></td>
+    </tr>
+
+    <tr>
+        <td>American Coffee</td>
+        <td>150</td>
+        <td><input type="number" id="quantity4"></td>
+        <td><input type="text" id="total4" readonly></td>
+    </tr>
+
+    <tr>
+        <td colspan="4" align="center">
+            <button onclick="calculatePrice()">Calculate</button>
+        </td>
+    </tr>
+</table>
+
+<script src="class72.js"></script>
+
+</body>
+</html>
