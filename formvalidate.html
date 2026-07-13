@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Validation</title>
+
+<style>
+    span{
+        color:red;
+        font-size:14px;
+    }
+</style>
+
+</head>
+<body>
+
+<form action="welcome.html" onsubmit="return valid()">
+
+    Name:
+    <input type="text" id="name" onkeyup="valid()">
+    <span id="nameerror"></span>
+    <br><br>
+
+    Email:
+    <input type="text" id="email" onkeyup="valid()">
+    <span id="emailerror"></span>
+    <br><br>
+
+    Password:
+    <input type="password" id="password" onkeyup="valid()">
+    <span id="passworderror"></span>
+    <br><br>
+
+    Confirm Password:
+    <input type="password" id="conformpassword" onkeyup="valid()">
+    <span id="conformpassworderror"></span>
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+<script src="formvalidate.js"></script>
+
+</body>
+</html>
